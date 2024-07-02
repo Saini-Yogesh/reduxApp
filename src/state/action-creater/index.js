@@ -10,7 +10,7 @@ export const depositeMoney = (amount) => {
 export const withdwawMoney = (amount) => {
   return (dispatch) => {
     dispatch({
-      type: "withdwaw",
+      type: "withdraw",
       payload: amount,
     });
   };
